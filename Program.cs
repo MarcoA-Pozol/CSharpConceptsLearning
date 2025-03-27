@@ -34,5 +34,13 @@ class Program
 		
 		// Printing a list
 		Console.WriteLine($"\nList of numbers: {numbers_list}");
+		
+		// List of strings with pre-defined data
+		List<string> items = new List<string> {"Headphones", "Orange Juice 1L", "Tablecloth 6pack", "Flowers 12pieces", "T-Shirt XL"}
+		
+		items.Add("Dishes dozen");
+		item.Add("Keyboard");
+		
+		Console.WriteLine($"Items list: {items}");
 	}
 }
