@@ -1,0 +1,14 @@
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\bin\Debug\net9.0\CSharpConceptsLearning.exe
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\bin\Debug\net9.0\CSharpConceptsLearning.deps.json
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\bin\Debug\net9.0\CSharpConceptsLearning.runtimeconfig.json
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\bin\Debug\net9.0\CSharpConceptsLearning.dll
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\bin\Debug\net9.0\CSharpConceptsLearning.pdb
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\obj\Debug\net9.0\CSharpConceptsLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\obj\Debug\net9.0\CSharpConceptsLearning.AssemblyInfoInputs.cache
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\obj\Debug\net9.0\CSharpConceptsLearning.AssemblyInfo.cs
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\obj\Debug\net9.0\CSharpConceptsLearning.csproj.CoreCompileInputs.cache
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\obj\Debug\net9.0\CSharpConceptsLearning.dll
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\obj\Debug\net9.0\refint\CSharpConceptsLearning.dll
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\obj\Debug\net9.0\CSharpConceptsLearning.pdb
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\obj\Debug\net9.0\CSharpConceptsLearning.genruntimeconfig.cache
+C:\Users\worker\Desktop\M\Coding\OpenSourceProjects\CSharpConceptsLearning\obj\Debug\net9.0\ref\CSharpConceptsLearning.dll
