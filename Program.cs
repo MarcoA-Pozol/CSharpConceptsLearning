@@ -1,13 +1,22 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using System;
 
-Console.WriteLine("El Temach es mi pastor");
 
-string name = "Marco";
+class Program
+{
+	static void Main(string[] args)
+	{
+		Console.WriteLine("Hello, World!");
 
-Console.WriteLine($"This is my name: {name}");
+		Console.WriteLine("C# is good!");
 
-// string strings_array = ["One", "Two", "Three"];
+		string name = "Marco";
 
-// Console.WriteLine($"Strings Array: {strings_array}")
+		Console.WriteLine($"This is my name: {name}");
 
+		// string strings_array = ["One", "Two", "Three"];
+
+		// Console.WriteLine($"Strings Array: {strings_array}")
+		Console.WriteLine("This is C#!!!");
+	}
+}
