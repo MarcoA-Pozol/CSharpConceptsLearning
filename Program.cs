@@ -39,13 +39,23 @@ class Program
 		List<string> items = new List<string> {"Headphones", "Orange Juice 1L", "Tablecloth 6pack", "Flowers 12pieces", "T-Shirt XL"};
 		
 		items.Add("Dishes dozen");
-		item.Add("Keyboard");
+		items.Add("Keyboard");
 		
 		Console.WriteLine($"Items list: {items}");
-		
 		
 		// Array first example
 		string[] common_colors = {"Red", "Blue", "Green", "Orange", "Yellow", "White", "Black", "Purple", "Pink", "Gray", "Brown"};
 		Console.WriteLine($"Common colors: {common_colors}");
+	
+		// Dict first example
+		Dictionary<string, int> users_dict = new Dictionary<string, int>{
+			{"henxo10", 120},
+			{"nofaceman", 165},
+			{"thefatherofyou", 98},
+			{"theprogrammer", 107},
+		};
+		Console.WriteLine($"Users dict: {users_dict}");
+		
+		Console.WriteLine("Dictionary Element: " + users_dict["nofaceman"]);
 	}
 }
