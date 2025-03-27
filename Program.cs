@@ -36,11 +36,16 @@ class Program
 		Console.WriteLine($"\nList of numbers: {numbers_list}");
 		
 		// List of strings with pre-defined data
-		List<string> items = new List<string> {"Headphones", "Orange Juice 1L", "Tablecloth 6pack", "Flowers 12pieces", "T-Shirt XL"}
+		List<string> items = new List<string> {"Headphones", "Orange Juice 1L", "Tablecloth 6pack", "Flowers 12pieces", "T-Shirt XL"};
 		
 		items.Add("Dishes dozen");
 		item.Add("Keyboard");
 		
 		Console.WriteLine($"Items list: {items}");
+		
+		
+		// Array first example
+		string[] common_colors = {"Red", "Blue", "Green", "Orange", "Yellow", "White", "Black", "Purple", "Pink", "Gray", "Brown"};
+		Console.WriteLine($"Common colors: {common_colors}");
 	}
 }
