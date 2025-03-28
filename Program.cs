@@ -57,5 +57,18 @@ class Program
 		Console.WriteLine($"Users dict: {users_dict}");
 		
 		Console.WriteLine("Dictionary Element: " + users_dict["nofaceman"]);
+
+		// Dict of lists
+		Dictionary<List> english_words = new Dictionary<List>{
+			{"verbs", ["Run", "Speak", "Brush", "Listen to", "Walk", "Sleep"]},
+			{"colors", ["Red", "Green", "Blue", "Yellow", "Black", "White", "Purple", "Pink", "Orange"]},
+			{"vehicles", ["Car", "Truck", "Motorcycle", "Airplane", "Ship", "Boat", "Helicopter"]},
+			{"fruits", ["Banana", "Peach", "Grapes", "Watermelon", "Melon", "Apple", "Strawberry"]},
+			{"animals", ["Dog", "Cat", "Horse", "Bird", "Spider", "Snake", "Bear", "Goat", "Bull"]},
+		};
+
+		Console.WriteLine($"English words dict: {english_words}");
+		Console.WriteLine($"Colors: {english_words["verbs"]}");
+		Console.WriteLine($"Vehicles: {english_words["vehicles"]}");
 	}
 }
