@@ -74,9 +74,39 @@ class Program
 		Console.WriteLine($"Vehicles: {english_words["vehicles"]}");
 
 		// LOOPS
-		for (int number; number<10; number++)
+		for (int number = 0; number<=10; number++)
 		{
 			Console.WriteLine(number);
 		}
+
+		foreach (var item in english_words)
+		{
+			Console.WriteLine(string.Join(", ", item.Value));
+			Console.WriteLine($"[{item.Key}, [{string.Join(", ", item.Value)}]]");
+		}
+
+		// CONDITIONALS
+		var myInt = 11;
+		if (myInt != 11 || myInt != 12)
+		{
+			Console.WriteLine("The value is not 11 or 12");
+		}
+		else if (myInt == 12) {
+			Console.WriteLine("The value is 12");
+		}
+		else {
+			Console.Write("The value is 11");
+		}
+
+		
+		var numbersSum = SumNumbers(10, 22);
+		Console.WriteLine($"{Environment.NewLine}Sum: {numbersSum}");
+		
+		// FUNCTIONS
+		static int SumNumbers(int numOne, int numTwo)
+		{
+			return numOne + numTwo;
+		}
 	}
+
 }
