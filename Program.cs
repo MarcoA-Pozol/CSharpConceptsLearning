@@ -26,6 +26,20 @@ class Program
 		numbers_list.Add(35);
 		numbers_list.Add(90);
 		numbers_list.Add(12);
+		numbers_list.Add(20);
+
+		// List of strings
+		List<string> stringsList = new List<string>();
+		stringsList.Add("Jason");
+		stringsList.Add("Eats"); 
+		stringsList.Add("Bread");
+		stringsList.Add("I");
+		stringsList.Add("Like"); 
+		stringsList.Add("Sandwiches");
+		foreach (string item in stringsList) 
+		{
+			Console.WriteLine(item);
+		}
 		
 		// For each loop
 		foreach (int number in numbers_list)
