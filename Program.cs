@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 
+namespace Program;
 class Program
 {
 	static void Main(string[] args)
@@ -59,16 +60,23 @@ class Program
 		Console.WriteLine("Dictionary Element: " + users_dict["nofaceman"]);
 
 		// Dict of lists
-		Dictionary<List> english_words = new Dictionary<List>{
-			{"verbs", ["Run", "Speak", "Brush", "Listen to", "Walk", "Sleep"]},
-			{"colors", ["Red", "Green", "Blue", "Yellow", "Black", "White", "Purple", "Pink", "Orange"]},
-			{"vehicles", ["Car", "Truck", "Motorcycle", "Airplane", "Ship", "Boat", "Helicopter"]},
-			{"fruits", ["Banana", "Peach", "Grapes", "Watermelon", "Melon", "Apple", "Strawberry"]},
-			{"animals", ["Dog", "Cat", "Horse", "Bird", "Spider", "Snake", "Bear", "Goat", "Bull"]},
+		Dictionary<string, string[]> english_words = new Dictionary<string, string[]>
+		{
+			{"verbs", new string[]{"Run", "Speak", "Brush", "Listen to", "Walk", "Sleep"}},
+			{"colors", new string[]{"Red", "Green", "Blue", "Yellow", "Black", "White", "Purple", "Pink", "Orange"}},
+			{"vehicles", new string[]{"Car", "Truck", "Motorcycle", "Airplane", "Ship", "Boat", "Helicopter"}},
+			{"fruits", new string[]{"Banana", "Peach", "Grapes", "Watermelon", "Melon", "Apple", "Strawberry"}},
+			{"animals", new string[]{"Dog", "Cat", "Horse", "Bird", "Spider", "Snake", "Bear", "Goat", "Bull"}},
 		};
 
 		Console.WriteLine($"English words dict: {english_words}");
 		Console.WriteLine($"Colors: {english_words["verbs"]}");
 		Console.WriteLine($"Vehicles: {english_words["vehicles"]}");
+
+		// LOOPS
+		for (int number; number<10; number++)
+		{
+			Console.WriteLine(number);
+		}
 	}
 }
