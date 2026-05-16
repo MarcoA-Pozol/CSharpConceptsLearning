@@ -38,6 +38,8 @@ class Program
 		stringsList.Add("Sandwiches");
 		stringsList.Add("With");
 		stringsList.Add("Cheese");
+		stringsList.Add("And");
+		stringsList.Add("Ketchup");
 		foreach (string item in stringsList) 
 		{
 			Console.WriteLine(item);
