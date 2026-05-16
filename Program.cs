@@ -36,6 +36,8 @@ class Program
 		stringsList.Add("I");
 		stringsList.Add("Like"); 
 		stringsList.Add("Sandwiches");
+		stringsList.Add("With");
+		stringsList.Add("Cheese");
 		foreach (string item in stringsList) 
 		{
 			Console.WriteLine(item);
