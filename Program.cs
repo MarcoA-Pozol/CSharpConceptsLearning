@@ -107,6 +107,44 @@ class Program
 		{
 			return numOne + numTwo;
 		}
+
+		// CUSTOM CLASS INSTANCE
+		Dog myDog = new Dog("Bebba", "Jack Russell", 5);
+
+		Console.WriteLine($"My dog's name is {myDog.Name}.");
+		Console.WriteLine($"She is a {myDog.Breed} and she is {myDog.Age} years old.");
+
+		myDog.Bark();
+		myDog.Eat("Chicken");
+
+		Console.WriteLine($"Is {myDog.Name} currently hungry? {myDog.IsHungry}");
 	}
 
+	// CUSTOM CLASS
+	class Dog
+	{
+		public string Name { get; set; }
+		public string Breed { get; set; }
+		public int Age { get; set; }
+		public bool IsHungry { get; private set; }
+
+		public Dog(string name, string breed, int age)
+		{
+			Name = name;
+			Breed = breed;
+			Age = age;
+			IsHungry = true;
+		}
+
+		public void Bark()
+		{
+			Console.WriteLine($"{Name} says: Woof! Woof!");
+		}
+
+		public void Eat(string food)
+		{
+			Console.WriteLine($"{Name} is eating {food}.");
+			IsHungry = false; 
+		}
+	}
 }
